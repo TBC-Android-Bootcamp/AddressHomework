@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Address Homework</string>
+    <string name="enter_location">enter location</string>
+    <string name="adress">Address</string>
+    <string name="countries">Countries</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapslocation">Map</string>
+</resources>

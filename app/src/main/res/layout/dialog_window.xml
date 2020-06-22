@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginEnd="65dp"
+    android:layout_marginStart="65dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/dialogtitle"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="something went wrong"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/dialgdesc"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="35dp"
+        android:textColor="@android:color/black"
+        android:text="Invalid Address"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialogbtn"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Try Again"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
